@@ -35,9 +35,7 @@ Como as migrações modificam as estruturas de banco de dados existentes, é pre
 
 As migrações também podem não dar certo se forem aplicadas a um banco de dados que esteja em um estado diferente do presumido. Por exemplo, isso pode acontecer quando são feitas alterações na estrutura do banco de dados fora dos limites do sistema de migração ou quando as migrações são aplicadas na ordem errada. Todos os sistemas de migração dependem da compreensão do estado atual do banco de dados para modificar corretamente as estruturas existentes. Se o estado real divergir do estado presumido, as migrações podem falhar ou podem alterar o banco de dados de maneiras indesejáveis.
 
-Outro possível problema com as migrações é que elas costumam ser muito específicas da ferramenta. Os sistemas de migração geram artefatos que representam o estado dos bancos de dados ou as alterações necessárias. Embora algumas ferramentas 
-
-produzam resultados em SQL simples, às vezes elas codificam detalhes adicionais para a ferramenta analisar nos comentários ou podem usar formatos especiais de nome de arquivo para indicar a ordem. Pode ser difícil alternar entre as ferramentas de migração sem que haja uma ruptura clara entre a geração anterior e a atual de arquivos de migração.
+Outro possível problema com as migrações é que elas costumam ser muito específicas da ferramenta. Os sistemas de migração geram artefatos que representam o estado dos bancos de dados ou as alterações necessárias. Embora algumas ferramentas produzam resultados em SQL simples, às vezes elas codificam detalhes adicionais para a ferramenta analisar nos comentários ou podem usar formatos especiais de nome de arquivo para indicar a ordem. Pode ser difícil alternar entre as ferramentas de migração sem que haja uma ruptura clara entre a geração anterior e a atual de arquivos de migração.
 
 Migrações baseadas em estado vs. mudança
 ---------------------------------------------------------------------
