@@ -28,4 +28,4 @@ Recentemente outros engenheiros adicionáram um capítulo de Observability aos p
 o link a seguir trás mais detalhes a respeito.
 ```
 
-[Observability](https://www.ecloudcontrol.com/what-is-observability-and-why-is-it-vital-in-site-reliability-engineering/) é hoje um dos capitulos relacionados a disciplina `SRE`.
+[Observability](https://www.redhat.com/pt-br/topics/devops/what-is-observability) é hoje um dos capitulos relacionados a disciplina `SRE`.
