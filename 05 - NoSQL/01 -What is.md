@@ -75,7 +75,7 @@ A tabela a seguir compara a terminologia usada por bancos de dados NoSQL selecio
 |Table|Collection|Table|Table|Data bucket|
 |Row|Document|Item|Row|Document|Column|
 |Column|Field|Attribute|Colum|Field|
-|Primary key|ObjectId|Primary key|Primary key|Document ID|
+|Primary key|ObjectId|Partition key|Primary key|Document ID|
 |Index|Index|Secondary index|Index|Index|
 |View|View|Global secondary index|Materialized view|View|
 |Nested table or object|Embedded document|Map|Map|Map|
